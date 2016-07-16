@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Retrieve Data From XML</title>
-<script type="application/javascript" src="js/jquery" /></script>
+<script type="application/javascript" src="js/jquery.js" /></script>
 
 <script type="application/javascript">
 	$(document).ready(function(e) {
@@ -35,7 +35,6 @@
 			$('#MainContainer').append(content);
         });
 	}
-
 </script>
 </head>
 
