@@ -3,11 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Retrieve Data From XML</title>
-
 <script type="application/javascript" src="js/jquery" /></script>
 
 <script type="application/javascript">
-	
 	$(document).ready(function(e) {
     	$.ajax({
 			type		:	'GET',
@@ -18,9 +16,7 @@
     });
 
 	function xmlParser(xml) {
-		
 		$(xml).find('girl-desc').each(function() {
-			
 			Title 		= 	$(this).find('title').text();
 			ImagePath 	= 	$(this).find('image').text();
 			Artist 		= 	$(this).find('artist').text();
@@ -41,12 +37,9 @@
 	}
 
 </script>
-
 </head>
 
 <body>
-
 <div id="MainContainer"></div>
-
 </body>
 </html>
