@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<beautiful-girls>
+    <girl-desc>
+		<title>First Beautiful Girl</title>
+		<image>1.jpg</image>
+		<artist>Alica</artist>
+		<price>20000</price>
+    </girl-desc>
+    <girl-desc>
+		<title>Second Beautiful Girl</title>
+		<image>2.jpg</image>
+		<artist>Katty</artist>
+		<price>60000</price>
+    </girl-desc>
+    <girl-desc>
+		<title>Third Beautiful Girl</title>
+		<image>3.jpg</image>
+		<artist>Cindy</artist>
+		<price>50000</price>
+    </girl-desc>
+    <girl-desc>
+		<title>Fourth Beautiful Girl</title>
+		<image>4.jpg</image>
+		<artist>Rani</artist>
+		<price>40000</price>
+    </girl-desc>
+    <girl-desc>
+		<title>Fifth Beautiful Girl</title>
+		<image>5.jpg</image>
+		<artist>Katrina</artist>
+		<price>30000</price>
+    </girl-desc>
+</beautiful-girls>
