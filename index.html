@@ -10,10 +10,10 @@
     	$.ajax({
 			type		:	'GET',
 			dataType	:	'xml',
-			url			:	'sample.xml',
+			url		:	'sample.xml',
 			success		: 	xmlParser
 		});
-    });
+    	});
 
 	function xmlParser(xml) {
 		$(xml).find('girl-desc').each(function() {
@@ -33,7 +33,7 @@
 			content += '</div>';
 			
 			$('#MainContainer').append(content);
-        });
+        	});
 	}
 </script>
 </head>
