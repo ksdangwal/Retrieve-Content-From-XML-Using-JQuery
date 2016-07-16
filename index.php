@@ -29,7 +29,7 @@
 			content += '<br/>';	
 			content += '<span>'+Artist+'</span>';	
 			content += '<br/>';	
-			content += '<span>'+ '$' + Price+'</span>';	
+			content += '<span>'+ '$' + Price + ' Per/Film' + '</span>';	
 			content += '</div>';
 			
 			$('#MainContainer').append(content);
